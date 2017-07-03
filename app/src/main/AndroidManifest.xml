@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pedrodaluz.smartcharger">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.smart.Inicio" android:theme="@style/AppTheme.Fullscreen" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.smart.Login" />
+        <activity android:name="com.smart.Principal" />
+        <activity android:name="com.smart.Definicoes" />
+        <activity android:name="com.smart.Contacto" />
+        <activity android:name="com.smart.PersonalizarToques" />
+        <activity android:name="com.smart.Conta" />
+
+    </application>
+
+</manifest>
