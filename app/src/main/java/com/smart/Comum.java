@@ -5,7 +5,7 @@ import android.view.View;
 
 /**
  * Created by skoop on 7/2/2017.
- * comum class don´t change
+ * comum class don´t change this class
  *
  */
 
